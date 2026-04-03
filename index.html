@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Printer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Input Printer</h1>
+      <p>Type text below, then click Print to show it on the page and in the console (terminal).</p>
+
+      <div class="form-row">
+        <input id="userInput" type="text" placeholder="Enter something" />
+        <button id="printBtn">Print</button>
+      </div>
+
+      <div id="output" class="output" aria-live="polite"></div>
+
+      <p class="hint">Open browser developer console to see terminal output: F12 or Ctrl+Shift+I.</p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
